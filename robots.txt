@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+
+Sitemap: https://geometry-dash-unbanned-games.github.io/sitemap.xml
+
+# Crawl-delay: 1

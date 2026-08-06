@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="icon" href="images/favicon.png" sizes="32x32">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Geometry Dash Unbanned - Play Geometry Dash Unblocked | geometry dash github.io</title>
+  <meta name="description"
+    content="Play geometry dash unbanned, geometry dash unblocked, geometry dash lite unblocked for free. Best rhythm-based platformer on Chromebook. Access via geometry-dash-unbanned-games.github.io">
+  <link rel="canonical" href="https://geometry-dash-unbanned-games.github.io/" />
+  <meta property="og:url" content="geometry-dash-unbanned-games.github.io" />
+  <meta property="og:image:width" content="200 px" />
+  <meta property="og:image:height" content="200 px" />
+  <meta property="og:title" content="Geometry Dash Unbanned - Play geometry dash unblocked free" />
+  <meta property="og:site_name" content="geometry-dash-unbanned-games.github.io" />
+  <meta property="og:description"
+    content="Play geometry dash unbanned, geometry dash lite unblocked, unbanned geometry dash. Enjoy all versions: Subzero, Meltdown, World on Chromebook." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://geometry-dash-unbanned-games.github.io/images/icon_game.png">
+
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery-comments.css" />
+  <link rel="stylesheet" type="text/css" href="css/user.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <!-- Font Awesome icons (free version)-->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+
+
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Geometry Dash Unbanned",
+    "url": "https://geometry-dash-unbanned-games.github.io",
+    "description": "Geometry Dash on Chromebook, a popular rhythm-based platformer game. Jump, fly, and flip your way through dangerous passages and spiky obstacles in this challenging and addictive experience on the Chromebook platform"
+  }
+  </script>
+  </head>
+
+<body id="page-top">
+  <!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
+<a class="navbar-brand js-scroll-trigger" href="/">
+<img src="images/home-icon.webp" width="160" height="80" class="topVAZ-logo" alt="logo">
+</a>
+<ul class="navbar-nav d-none d-lg-flex ms-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link" href="/play/geometry-dash.html">Classic</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/play/geometry-dash-lite.html">Lite</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/play/geometry-dash-meltdown.html">Meltdown</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/play/geometry-dash-subzero.html">Subzero</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/play/geometry-dash-world.html">World</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/play/geometry-dash-scratch.html">Scratch</a>
+</li>
+</ul>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="navbar-collapse collapse" id="nav-menu">
+</div>
+</nav>
+
+
+
+  <div class="container game-wrapper">
+
+
+    <div class="row">
+      <div class="col-md-9">
+        <div class="game-container">
+          <div class="game-content" data-id="169">
+            <div id="allow_mobile_version"></div>
+            <!-- 
+                <div id="mobile-play" style="display: none;">
+          				<div class="mobile-thumb-play">
+          					<img src="#">
+          				</div>
+          				<div id="mobile-play-btn">
+          					<i class="bi bi-play-circle-fill"></i>
+          				</div>
+          			</div> -->
+
+
+
+            <div class="game-iframe-container" id="game-player" style="position: relative;">
+              <div id="mobile-back-button" draggable="true">
+                <i class="bi bi-x-circle-fill"></i>
+              </div>
+              <iframe class="game-iframe" id="game-area" src="" width="480" height="800" scrolling="none"
+                frameborder="0" allowfullscreen></iframe>
+
+              <div id="custom-play-overlay"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: flex; align-items: center; justify-content: center; z-index: 1000;">
+                <div style="text-align: center; color: white;">
+                  <img src="images/icon_game.png" alt="Geometry Dash"
+                    style="width: 100px; height: 100px; margin-bottom: 20px;">
+                  <div id="custom-play-btn" style="font-size: 60px; cursor: pointer; color: #FCB53B;"
+                    onclick="customStartGame()">
+                    <i class="bi bi-play-circle-fill"></i>
+                  </div>
+                  <p style="margin-top: 10px; font-size: 18px;">Click to Play Geometry Dash</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="game-info">
+            <div class="header-left">
+              <h1 class="single-title">Geometry Dash</h1>
+
+
+            </div>
+            <div class="header-right">
+
+
+              <div class="b-action2">
+
+                <a href="#" onclick="open_fullscreen()" class="btn btn-capsule"><i
+                    class="bi bi-arrows-fullscreen b-icon"></i>Fullscreen</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end col-9 -->
+
+      <div class="col-md-3">
+        <div style="">
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <div class="container">
+
+
+        <div class="banner-ad-wrapper">
+          <div class="banner-ad-content" style="padding: 20px 0; text-align: center;">
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <!-- Related games section -->
+        <h3 class="section-title">Related games</h3>
+        <div class="row grid-container">
+
+          <div class="col-lg-4 col-md-6 grid-2">
+            <a href="/play/geometry-dash.html">
+              <div class="game-item">
+                <div class="list-game">
+                  <div class="list-thumbnail"><img src="images/geometry-dash.webp" data-src="images/geometry-dash.webp"
+                      class="small-thumb img-rounded lazyload" alt="Geometry Dash"></div>
+                  <div class="list-info">
+                    <div class="list-title">Geometry Dash</div>
+                    <div class="list-category">Skill</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 grid-2">
+            <a href="/play/geometry-dash-lite.html">
+              <div class="game-item">
+                <div class="list-game">
+                  <div class="list-thumbnail"><img src="images/geometry-dash-lite.webp"
+                      data-src="images/geometry-dash-lite.webp" class="small-thumb img-rounded lazyload"
+                      alt="Geometry Dash Lite"></div>
+                  <div class="list-info">
+                    <div class="list-title">Geometry Dash Lite</div>
+                    <div class="list-category">Skill</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 grid-2">
+            <a href="/play/geometry-dash-meltdown.html">
+              <div class="game-item">
+                <div class="list-game">
+                  <div class="list-thumbnail"><img src="images/geometry-dash-meltdown.webp"
+                      data-src="images/geometry-dash-meltdown.webp" class="small-thumb img-rounded lazyload"
+                      alt="Geometry Dash Meltdown"></div>
+                  <div class="list-info">
+                    <div class="list-title">Geometry Dash Meltdown</div>
+                    <div class="list-category">Skill</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 grid-2">
+            <a href="/play/geometry-dash-scratch.html">
+              <div class="game-item">
+                <div class="list-game">
+                  <div class="list-thumbnail"><img src="images/geometry-dash-scratch.webp"
+                      data-src="images/geometry-dash-scratch.webp" class="small-thumb img-rounded lazyload"
+                      alt="Geometry Dash Scratch"></div>
+                  <div class="list-info">
+                    <div class="list-title">Geometry Dash Scratch</div>
+                    <div class="list-category">Skill</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 grid-2">
+            <a href="/play/geometry-dash-subzero.html">
+              <div class="game-item">
+                <div class="list-game">
+                  <div class="list-thumbnail"><img src="images/geometry-dash-subzero.webp"
+                      data-src="images/geometry-dash-subzero.webp" class="small-thumb img-rounded lazyload"
+                      alt="Geometry Dash Subzero"></div>
+                  <div class="list-info">
+                    <div class="list-title">Geometry Dash Subzero</div>
+                    <div class="list-category">Skill</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 grid-2">
+            <a href="/play/geometry-dash-world.html">
+              <div class="game-item">
+                <div class="list-game">
+                  <div class="list-thumbnail"><img src="images/geometry-dash-world.webp"
+                      data-src="images/geometry-dash-world.webp" class="small-thumb img-rounded lazyload"
+                      alt="Geometry Dash World"></div>
+                  <div class="list-info">
+                    <div class="list-title">Geometry Dash World</div>
+                    <div class="list-category">Skill</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="banner-ad-wrapper">
+            <div class="banner-ad-content" style="padding: 20px 0; text-align: center;">
+              </div>
+          </div>
+
+        </div> <!-- end Related -->
+
+
+
+
+
+
+
+
+
+<div class="container seo-content mt-5">
+<h2 class="section-title">Play Geometry Dash Unblocked - Free Online at School & Work</h2>
+
+<p>
+Welcome to <a href="/"><strong>Geometry Dash Unbanned</strong></a>, the best place to play <a
+href="/play/geometry-dash.html"><strong>Geometry Dash</strong></a> directly in your browser. Whether
+you're at school, work, or home, you can enjoy this iconic rhythm-based platformer without any restrictions.
+Our version runs smoothly on Chromebooks, laptops, and desktop computers.
+</p>
+
+<p>
+Looking for Geometry Dash on GitHub? You're in the
+right place! Our platform is hosted on GitHub Pages, making it fast, reliable, and always accessible. No
+downloads required—just click and play.
+</p>
+
+<h3 class="item-title">Why Play Geometry Dash Unblocked?</h3>
+<p>
+Many students search for ways to play at school because networks often block gaming
+sites. Our browser-based version bypasses these restrictions so you can
+enjoy your favorite game during breaks. We provide instant access without complex workarounds.
+</p>
+
+          <h3 class="item-title">Explore All Geometry Dash Versions</h3>
+          <p>
+            The Geometry Dash series has multiple games to explore:
+          </p>
+          <ul>
+            <li><a href="/play/geometry-dash-lite.html"><strong>Geometry Dash Lite</strong></a> - The free, lightweight
+              version perfect for quick gameplay</li>
+            <li><a href="/play/geometry-dash-subzero.html"><strong>Geometry Dash Subzero</strong></a> - Cool down with
+              icy levels and new music</li>
+            <li><a href="/play/geometry-dash-meltdown.html"><strong>Geometry Dash Meltdown</strong></a> - Heat up with
+              fiery challenging levels</li>
+            <li><a href="/play/geometry-dash-world.html"><strong>Geometry Dash World</strong></a> - Bite-sized
+              challenges across multiple worlds</li>
+            <li><a href="/play/geometry-dash-scratch.html"><strong>Geometry Dash Scratch</strong></a> -
+              Community-created levels and variations</li>
+          </ul>
+
+<h3 class="item-title">Try Geometry Dash Lite</h3>
+<p>
+If you want a lighter experience, check out <a href="/play/geometry-dash-lite.html"><strong>Geometry Dash Lite</strong></a>. This version gives you the classic gameplay without needing
+the full app download. It's perfect for playing on school computers or anywhere you need quick access.
+</p>
+
+          <h3 class="item-title">Related Games to Play</h3>
+          <p>
+            If you enjoy Geometry Dash, you can play all different variants hosted right here:
+          </p>
+          <ul>
+            <li><a href="/play/geometry-dash-lite.html"><strong>Geometry Dash Lite</strong></a> - A shorter, easier version</li>
+            <li><a href="/play/geometry-dash-subzero.html"><strong>Geometry Dash Subzero</strong></a> - Chill out with icy tracks</li>
+            <li><a href="/play/geometry-dash-meltdown.html"><strong>Geometry Dash Meltdown</strong></a> - Fire and brimstone</li>
+          </ul>
+
+          <h3 class="item-title">Frequently Asked Questions</h3>
+          <div class="faq-section">
+            <div class="faq-item">
+              <strong>Can I play Geometry Dash offline?</strong>
+              <p>While this web version requires an internet connection, you can play <strong>Geometry Dash
+                  offline</strong> by installing the official app on your mobile device or through Steam on your
+                computer.</p>
+            </div>
+<div class="faq-item">
+<strong>How do I access Geometry Dash at school?</strong>
+<p>Our site is designed to be accessible. Simply navigate to our <a href="/"><strong>homepage</strong></a> to enjoy the game without the need for additional software or complex setups.</p>
+</div>
+<div class="faq-item">
+<strong>Is this the same as other GitHub-hosted versions?</strong>
+<p>Yes! Our site at <a href="/"><strong>Geometry Dash Unbanned</strong></a> provides the same experience as other GitHub Pages gaming sites. We host the authentic versions with all features included.</p>
+</div>
+          </div>
+        </div>
+
+
+        <!-- Random games section removed -->
+
+        <div class="banner-ad-wrapper">
+
+          <div class="banner-ad-wrapper">
+            <div class="banner-ad-content" style="padding: 20px 0; text-align: center;">
+              </div>
+          </div>
+
+
+          <div class="container">
+
+
+
+
+
+
+
+
+
+            <!-- More Games Section - Now showing only Geometry Dash variants -->
+<div class="container">
+<h3 class="section-title">Geometry Dash Versions</h3>
+<div class="row grid-container">
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+<a href="/play/geometry-dash.html">
+<div class="game-item">
+<div class="list-game">
+<div class="list-thumbnail"><img src="images/geometry-dash.webp" data-src="images/geometry-dash.webp" class="lazyload" alt="Geometry Dash"></div>
+<div class="list-info">
+<div class="list-title">Geometry Dash</div>
+<div class="list-category">Skill</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+<a href="/play/geometry-dash-lite.html">
+<div class="game-item">
+<div class="list-game">
+<div class="list-thumbnail"><img src="images/geometry-dash-lite.webp" data-src="images/geometry-dash-lite.webp" class="lazyload" alt="Geometry Dash Lite"></div>
+<div class="list-info">
+<div class="list-title">Geometry Dash Lite</div>
+<div class="list-category">Skill</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+<a href="/play/geometry-dash-meltdown.html">
+<div class="game-item">
+<div class="list-game">
+<div class="list-thumbnail"><img src="images/geometry-dash-meltdown.webp" data-src="images/geometry-dash-meltdown.webp" class="lazyload" alt="Geometry Dash Meltdown"></div>
+<div class="list-info">
+<div class="list-title">Geometry Dash Meltdown</div>
+<div class="list-category">Skill</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+<a href="/play/geometry-dash-scratch.html">
+<div class="game-item">
+<div class="list-game">
+<div class="list-thumbnail"><img src="images/geometry-dash-scratch.webp" data-src="images/geometry-dash-scratch.webp" class="lazyload" alt="Geometry Dash Scratch"></div>
+<div class="list-info">
+<div class="list-title">Geometry Dash Scratch</div>
+<div class="list-category">Skill</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+<a href="/play/geometry-dash-subzero.html">
+<div class="game-item">
+<div class="list-game">
+<div class="list-thumbnail"><img src="images/geometry-dash-subzero.webp" data-src="images/geometry-dash-subzero.webp" class="lazyload" alt="Geometry Dash Subzero"></div>
+<div class="list-info">
+<div class="list-title">Geometry Dash Subzero</div>
+<div class="list-category">Skill</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-lg-2 col-md-4 col-6 grid-3">
+<a href="/play/geometry-dash-world.html">
+<div class="game-item">
+<div class="list-game">
+<div class="list-thumbnail"><img src="images/geometry-dash-world.webp" data-src="images/geometry-dash-world.webp" class="lazyload" alt="Geometry Dash World"></div>
+<div class="list-info">
+<div class="list-title">Geometry Dash World</div>
+<div class="list-category">Skill</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+</div>
+
+<div class="footer-copyright py-4">
+              <div class="container">
+                geometry-dash-unbanned-games.github.io <span class="dsb-panel">
+                  <a href="term.html">Terms of Use</a> - <a href="dmca.html">DMCA</a> - <a href="policy.html">Privacy Policy</a> </span>
+              </div>
+            </div>
+            <script type="text/javascript" src="js/jquery-3.6.2.min.js"></script>
+            <script type="text/javascript" src="js/lazysizes.min.js"></script>
+            <script type="text/javascript" src="js/popper.min.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script>
+              function customStartGame() {
+                document.getElementById('game-area').src = 'https://23azostore.github.io/s8/geometry-dash/';
+                document.getElementById('custom-play-overlay').style.display = 'none';
+              }
+            </script>
+            <script type="text/javascript" src="js/script.js"></script>
+            <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
