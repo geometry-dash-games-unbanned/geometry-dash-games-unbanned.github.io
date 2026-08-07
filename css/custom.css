@@ -141,14 +141,16 @@ ul.list-categories li:hover, ul.category-list-wrapper .cat-item:hover, ul.catego
   transform: translateY(-2px);
 }
 
-/* Game Playing Iframe Area — subway_unbanned style */
+/* Game Playing Iframe Area — responsive 16:9 widescreen player */
 .game-iframe-container {
   position: relative;
   width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 75vh;
+  min-height: 500px;
   background: #000;
   border-radius: 12px;
   overflow: hidden;
-  min-height: 650px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.8), 0 0 15px rgba(56, 189, 248, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.05);
   margin-top: 20px;
