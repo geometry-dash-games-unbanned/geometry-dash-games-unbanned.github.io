@@ -1,0 +1,174 @@
+/*
+Custom style - Premium Blue & Glassmorphism Aesthetic
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+body, body.login-body {
+  background: #020617 !important; /* Deep dark blue background */
+  background-image: radial-gradient(circle at top right, rgba(30, 58, 138, 0.4), transparent 50%),
+                    radial-gradient(circle at bottom left, rgba(14, 165, 233, 0.15), transparent 50%) !important;
+  color: #f8fafc;
+  font-family: 'Outfit', sans-serif !important;
+  min-height: 100vh;
+}
+
+/* Typography Enhancements */
+.section-title, .single-title, .page-title, .item-title, .widget-title {
+  color: #38bdf8 !important;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
+
+/* Glassmorphism Navigation */
+.top-nav {
+  background: rgba(15, 23, 42, 0.6) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar input.search {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(56, 189, 248, 0.2) !important;
+  color: #e0f2fe !important;
+  transition: all 0.3s ease;
+}
+
+.search-bar input.search:focus {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: #38bdf8 !important;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.3) !important;
+  outline: none;
+}
+
+/* Glassmorphism Game Cards & Items */
+.grid-3 .list-game, .post-media, .leaderboard-row, .game-info, .category-description, .login-form, .register-form {
+  background: rgba(30, 58, 138, 0.15) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(56, 189, 248, 0.15) !important;
+  border-radius: 16px !important;
+  transition: all 0.3s ease;
+}
+
+.category-description {
+  border-left-color: #0ea5e9 !important;
+}
+
+/* Game Hover Effects */
+.grid-2 .game-item, .grid-3 .game-item, .list-vertical {
+  transition: transform 0.3s ease;
+}
+
+.grid-2 .game-item:hover, .grid-3 .game-item:hover, .list-vertical:hover {
+  background: rgba(30, 58, 138, 0.3) !important;
+  border-radius: 20px;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 20px rgba(56, 189, 248, 0.3) !important;
+}
+
+/* Thumbnails */
+.list-thumbnail img, .img-rounded {
+  border-radius: 14px !important;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+@media(hover: hover) and (pointer: fine) {
+  .game-item:hover .list-thumbnail img {
+    transform: scale(1.08);
+    filter: brightness(1.1);
+  }
+  .list-thumbnail:hover {
+    opacity: 1 !important; /* Disable the old dull opacity fade */
+  }
+}
+
+.list-title {
+  color: #f1f5f9 !important;
+  font-weight: 600 !important;
+}
+
+.list-category {
+  color: #7dd3fc !important;
+}
+
+/* Buttons */
+.btn-primary, .pagination .page-link:hover, .btn-load-more:hover {
+  background-color: #0ea5e9 !important;
+  border-color: #0ea5e9 !important;
+  box-shadow: 0 0 15px rgba(14, 165, 233, 0.5);
+  color: #fff !important;
+  border-radius: 8px;
+}
+
+.btn-capsule, .btn-circle, .btn-load-more, .tag-item {
+  background: rgba(56, 189, 248, 0.1) !important;
+  border: 1px solid rgba(56, 189, 248, 0.3) !important;
+  color: #e0f2fe !important;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.btn-capsule:hover, .btn-capsule.active, .btn-circle:hover, .tag-item:hover {
+  background: rgba(56, 189, 248, 0.3) !important;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.4) !important;
+  border-color: #7dd3fc !important;
+  color: #ffffff !important;
+}
+
+.pagination .page-link {
+  background: rgba(30, 58, 138, 0.4) !important;
+  color: #bae6fd !important;
+  border: 1px solid rgba(56, 189, 248, 0.2) !important;
+}
+
+/* Category Tags */
+ul.list-categories li, ul.category-list-wrapper .cat-item, ul.category-list-game .cat-item {
+  background: rgba(14, 165, 233, 0.15) !important;
+  border: 1px solid rgba(14, 165, 233, 0.3) !important;
+  color: #7dd3fc !important;
+  transition: all 0.3s ease;
+}
+
+ul.list-categories li:hover, ul.category-list-wrapper .cat-item:hover, ul.category-list-game .cat-item:hover {
+  background: rgba(14, 165, 233, 0.3) !important;
+  border-color: #38bdf8 !important;
+  box-shadow: 0 0 10px rgba(14, 165, 233, 0.4) !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+}
+
+/* Game Playing Iframe Area — subway_unbanned style */
+.game-iframe-container {
+  position: relative;
+  width: 100%;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 650px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8), 0 0 15px rgba(56, 189, 248, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 20px;
+}
+
+/* Footers */
+.footer-copyright {
+  background: rgba(2, 6, 23, 0.8) !important;
+  border-top: 1px solid rgba(56, 189, 248, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.border-line {
+  border-top: 1px solid rgba(56, 189, 248, 0.15) !important;
+}
+
+/* Utility Overrides for the "Olive Green" and "Red" from old theme */
+.star-on { color: #38bdf8 !important; }
+.star-off { color: rgba(255, 255, 255, 0.2) !important; }
+.b-white { background: rgba(255, 255, 255, 0.1) !important; color: #fff !important; }
+
+/* Hide mobile play block cleanly */
+.mobile-thumb-play { background: #0f172a !important; }
