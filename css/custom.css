@@ -174,12 +174,3 @@ ul.list-categories li:hover, ul.category-list-wrapper .cat-item:hover, ul.catego
 
 /* Hide mobile play block cleanly */
 .mobile-thumb-play { background: #0f172a !important; }
-
-/* ======================================================
-   TEMPORARY HIDE: "More Games" section across all pages
-   To unhide on a later date, simply comment out or delete the rule below.
-   ====================================================== */
-.bottom-container,
-.more-games-section {
-  display: none !important;
-}
